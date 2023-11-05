@@ -3,10 +3,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class binarySeachImpl {
-    /**
-     * @description - Run the application
-     * @param args
-     */
+
     public  static  void main(String[] args){
         int[] list = {1,2,3,4,5,20,30,50,70,89,299,400};
         int[] mylist = {1, 3, 5, 7, 9};
@@ -23,7 +20,7 @@ public class binarySeachImpl {
      */
     private static Integer binarySearch(int[] list, int item){
         // lowest value in the list
-        int low =0;
+        int low = 0;
         // highest value in the list
         int high= list.length - 1;
         while(low<=high){
